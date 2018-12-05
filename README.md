@@ -1,4 +1,6 @@
 
+ - Create directories ssl and data: 
+   mkdir ssl data 
  - Generate SSL certs by certbot: 
    certbot certonly --standalone --email gergund@gmail.com -d vpn.itwnik.com
  - Copy SSL certs to the volume directory: 
